@@ -7,6 +7,8 @@ Computer viruses have been found to attempt jumps to their main body by insertin
 ### instructions:
 Included is the lex file "dump.txt", a makefile, and an assembly dump of a contaminated program. First run make, then use the generated program (should be "a.out") to read the dump text. If make did not compile, be sure to have FLEX installed on your system. Read through the dump text by piping it into the program: "cat dump.txt | a.out".
 
+* note - this build is intended for OS X, if you are running Linux/Ubuntu change "-ll" to "-lfl" in the makefile *
+
 ### notes:
 For more information on the FLEX:
 https://github.com/westes/flex
